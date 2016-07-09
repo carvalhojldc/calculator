@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2016-07-09T10:00:45
+# Project created by QtCreator 2016-07-09T12:35:55
 #
 #-------------------------------------------------
 
@@ -11,10 +11,10 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = calculator
 TEMPLATE = app
 
-#
+
 SOURCES += main.cpp\
-        mainwindow.cpp
+        calculator.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += calculator.h
 
-FORMS    += mainwindow.ui
+FORMS    += calculator.ui
